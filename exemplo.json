@@ -1,0 +1,51 @@
+  JSON é uma forma de representar dados de uma maneira fácil de ler e escrever tanto para humanos quanto para máquinas. Ele é frequentemente usado para  transmitir dados entre um servidor e um cliente em aplicativos da web 
+
+//Exemplo de JSON:
+
+
+{
+  // Chave "nome" contém o nome da pessoa como uma string
+  "nome": "Maria",
+  
+  // Chave "idade" contém a idade da pessoa como um número
+  "idade": 25,
+  
+  // Chave "email" contém o endereço de e-mail da pessoa como uma string
+  "email": "maria@email.com",
+  
+  // Chave "telefones" contém um array de objetos JSON, cada um representando um número de telefone
+  "telefones": [
+    {
+      // Objeto JSON que representa um número de telefone com a chave "tipo" e valor "celular"
+      "tipo": "celular",
+      
+      // Objeto JSON que representa um número de telefone com a chave "numero" e valor "123456789"
+      "numero": "123456789"
+    },
+    {
+      // Objeto JSON que representa um número de telefone com a chave "tipo" e valor "residencial"
+      "tipo": "residencial",
+      
+      // Objeto JSON que representa um número de telefone com a chave "numero" e valor "987654321"
+      "numero": "987654321"
+    }
+  ]
+}
+
+//MESMO CÒDIGO SEM OS COMENTÁROS
+
+// {
+//   "nome": "Maria",
+//   "idade": 25,
+//   "email": "maria@email.com",
+//   "telefones": [
+//      {
+//         "tipo": "celular",
+//         "numero": "123456789"
+//      },
+//      {
+//         "tipo": "residencial",
+//         "numero": "987654321"
+//      }
+//   ]
+// }
